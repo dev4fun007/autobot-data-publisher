@@ -1,6 +1,10 @@
 github.com/coreos/go-systemd/v22 v22.3.2/go.mod h1:Y58oyj3AT4RCenI/lSvhwexgC+NSVTIJ3seZv2GcEnc=
 github.com/dev4fun007/autobot-common v0.0.0-20211107113013-ec988f958828 h1:D6p4B6bupjpv6xRpdbzLgImr+wMDvKNavEf33oCHjfk=
 github.com/dev4fun007/autobot-common v0.0.0-20211107113013-ec988f958828/go.mod h1:+wyMT8/USoCFhVXxzUPeNCza7muUsFcyN9+JqKwhEQA=
+github.com/dev4fun007/autobot-common v0.0.0-20211113161630-6e465a92132c h1:BU0cZQgDwWhh2g9RCntUUPL7bsfwdSop6sYaIDnHjq4=
+github.com/dev4fun007/autobot-common v0.0.0-20211113161630-6e465a92132c/go.mod h1:+wyMT8/USoCFhVXxzUPeNCza7muUsFcyN9+JqKwhEQA=
+github.com/dev4fun007/autobot-common v0.0.0-20211113165618-1e78a08ac52a h1:FAPH+2+2lRxjZ2saXz/fUowcoVnemFaPHMkjrWWFae4=
+github.com/dev4fun007/autobot-common v0.0.0-20211113165618-1e78a08ac52a/go.mod h1:+wyMT8/USoCFhVXxzUPeNCza7muUsFcyN9+JqKwhEQA=
 github.com/godbus/dbus/v5 v5.0.4/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/rs/xid v1.3.0/go.mod h1:trrq9SKmegXys3aeAKXMUTdJsYXVwGY3RLcfgqegfbg=

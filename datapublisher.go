@@ -4,6 +4,7 @@ import (
 	"context"
 	"github.com/dev4fun007/autobot-common"
 	"github.com/rs/zerolog/log"
+	"strconv"
 )
 
 const (
@@ -41,6 +42,12 @@ func (receiver TickerDataPublisher) StartFanOutService(ctx context.Context) {
 					for _, tickerData := range data {
 						if val, ok := marketWorkerMap[tickerData.Market]; ok {
 							for _, worker := range val {
+								value, err := strconv.ParseFloat(tickerData.LastPrice, 64)
+								if err != nil {
+									log.Error().Str(common.LogComponent, DataPublisherTag).Err(err).Msg("unable to parse ticker lastPrice to float64")
+									break
+								}
+								tickerData.LastPriceCalculated = value
 								worker.GetDataChannel() <- tickerData
 							}
 						}
